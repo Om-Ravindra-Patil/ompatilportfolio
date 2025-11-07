@@ -7,8 +7,9 @@ import { Publications } from "@/components/Publications";
 import { Skills } from "@/components/Skills";
 import { Certifications } from "@/components/Certifications";
 import { Contact } from "@/components/Contact";
+import { Home } from "lucide-react";
 
-const Index = () => {
+const Homee = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-card/30 to-background">
       <Navigation />
@@ -40,4 +41,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Homee;
